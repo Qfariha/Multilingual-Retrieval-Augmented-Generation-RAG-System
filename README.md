@@ -19,14 +19,16 @@ Mount Google Drive and run the script in Google Colab. Upload the pdf in google 
 * **Embedding Model**: sentence-transformers/paraphrase-multilingual-mpnet-base-v2  
 * **Similarity Search**: FAISS  
 * **QA Model**: deepset/xlm-roberta-large-squad2  
-* **Evaluation**: cosine\_similarity from sklearn
-**Sample Test Cases:**
-User Question: অনুপমের ভাষায় সুপুরুষ কাকে বলা হয়েছে?
-Expected Answer: শুম্ভুনাথ
-User Question: কাকে অনুপমের ভাগ্য দেবতা বলে উল্লেখ করা হয়েছে?
-Expected Answer: মামাকে
-User Question: বিয়ের সময় কল্যাণীর প্রকৃত বয়স কত ছিল
+* **Evaluation**: cosine\_similarity from sklearn <br>
+
+Sample Test Cases:<br>
+User Question: অনুপমের ভাষায় সুপুরুষ কাকে বলা হয়েছে?<br>
+Expected Answer: শুম্ভুনাথ<br>
+User Question: কাকে অনুপমের ভাগ্য দেবতা বলে উল্লেখ করা হয়েছে?<br>
+Expected Answer: মামাকে<br>
+User Question: বিয়ের সময় কল্যাণীর প্রকৃত বয়স কত ছিল<br>
 Expected Answer: পনেরো
+
 
 **Evaluation Matrix**
 
