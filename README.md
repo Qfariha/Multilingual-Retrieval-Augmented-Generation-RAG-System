@@ -20,6 +20,13 @@ Mount Google Drive and run the script in Google Colab. Upload the pdf in google 
 * **Similarity Search**: FAISS  
 * **QA Model**: deepset/xlm-roberta-large-squad2  
 * **Evaluation**: cosine\_similarity from sklearn
+**Sample Test Cases:**
+User Question: অনুপমের ভাষায় সুপুরুষ কাকে বলা হয়েছে?
+Expected Answer: শুম্ভুনাথ
+User Question: কাকে অনুপমের ভাগ্য দেবতা বলে উল্লেখ করা হয়েছে?
+Expected Answer: মামাকে
+User Question: বিয়ের সময় কল্যাণীর প্রকৃত বয়স কত ছিল
+Expected Answer: পনেরো
 
 **Evaluation Matrix**
 
