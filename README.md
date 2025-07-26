@@ -12,7 +12,7 @@
 
 Mount Google Drive and run the script in Google Colab. Upload the pdf in google drive and provide the pdf paths in code accordingly. 
 
-## **Tools and Libraries Used:**
+**Tools and Libraries Used:**
 
 * **OCR**: pytesseract with tesseract-ocr-ben  
 * **PDF to Image**: pdf2image  
@@ -21,7 +21,7 @@ Mount Google Drive and run the script in Google Colab. Upload the pdf in google 
 * **QA Model**: deepset/xlm-roberta-large-squad2  
 * **Evaluation**: cosine\_similarity from sklearn
 
-#### **Evaluation Matrix**
+**Evaluation Matrix**
 
 * Metric: **Cosine Similarity** of true vs predicted answers (embedding space)  
 * Average Similarity on test set: 0.9629
